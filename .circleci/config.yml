@@ -20,7 +20,7 @@ jobs:
       - run:
           name: "see log"
           shell: powershell.exe
-          command: cat c:ProgramData\chocolatey\logs\chocolatey.log
+          command: cat C:\ProgramData\chocolatey\logs\chocolatey.log
       - run:
           name: "check Tabular"
           shell: powershell.exe
